@@ -1,7 +1,7 @@
 import React, { createContext, ReactNode, useContext } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 
-interface Contact {
+export interface Contact {
   id: string;
   name: string;
 }
